@@ -1,0 +1,3 @@
+gcc main.c -o obj Node.c Grid.c algorithm.c P_Queue.c arrayList.c -fopenmp
+export OMP_NUM_THREADS=8
+./obj
